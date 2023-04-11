@@ -3,6 +3,7 @@ TODO/Outline:
 
 1. User
 - Email Verification (ucsc.edu, cabrillo)
+    - blacklist for creeps/drug dealers
 - Search
     - tags
     - sort (random, oldest, newest)
@@ -30,7 +31,7 @@ TODO/Outline:
 4. Roomate Match (Tinder for Roomates/similar UI with person cards)
 - Roomate information
     - Class year
-    - Looking for (on/off campus, which college, double/single/etc.
+    - Looking for (on/off campus, which college, double/single/etc.)
     - graduating year
     - money range
     - bringing a car
@@ -41,3 +42,14 @@ TODO/Outline:
     - bio
     - Match people by assigning each category a weight (arbitrary/intuitavely assigned) and sum their matching categories weight to tell if they are compatible
     - Collect data on who matches with who and adjust category weight based on that info (Machine Learning in the match algorithm)
+
+
+
+
+Resources?:
+
+1. Theme and Layout
+- Color Theme
+    - https://brand.universityofcalifornia.edu/guidelines/identity/color.html
+- The Holy Grail Layout
+    - https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/ 
