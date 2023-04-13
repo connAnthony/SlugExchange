@@ -1,22 +1,49 @@
+/*
+    Feel free to change and experiment with colors.
+
+    Color scheme:
+    UC Blue: #1295D8
+    UC Gold: #FFB551
+    Background color: #ffffff
+    Container color: 
+*/
+
+:root {
+    --UCBlue:#1295D8;
+    --UCGold:#FFB551;
+    /* feel free to mess with any of these... need to find color good scheme. */
+    --bg-color:#FFFFFF;
+    --container-color:#d0f4ff65;
+}
+
+
+
 body {
-    background-color: #ffffff;       /* This isn't actually going to be our background color */
-    color: #1295D8;
-    font-family: "Comfortaa", Helvetica, Arial, Verdana, sans-serif;
+    background-color: var(--bg-color);       /* This isn't actually going to be our background color */
+    color: var(--UCBlue);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans", 
+    "Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 
 a {
-    color: #FFB551;
+    color: var(--UCBlue);
+}
+
+footer {
+    text-align: center;
 }
 
 .title {
     display:flex;
     justify-content: center;
+    color: var(--UCGold)
 }
 
 .link-bar{
     display: flex;
     justify-content: space-between;
-    background-color: #1295D8;
-    border: 3px solid #FFB551;
+    background-color: var(--container-color);
+    border: 1px solid var(--UCGold);
     padding: 4px;
 }
