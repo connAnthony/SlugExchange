@@ -14,20 +14,31 @@
     /* feel free to mess with any of these... need to find color good scheme. */
     --bg-color:#FFFFFF;
     --container-color:#d0f4ff65;
+    --dark-color: #1c1c1c;
+    --dark-blue: #004175
 }
 
 
 
 body {
-    background-color: var(--bg-color);       /* This isn't actually going to be our background color */
+    background-color: var(--container-color);       /* This isn't actually going to be our background color */
     color: var(--UCBlue);
+    /*Different font families to choose from.
     font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans", 
     "Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
     "Noto Color Emoji";
+    */
+    font-family: Asap,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 a {
-    color: var(--UCBlue);
+    color: var(--bg-color);
+    text-decoration: none;
+    font-size: 150%;
+}
+
+a:hover {
+    transform: scale(1.07);
 }
 
 footer {
@@ -40,10 +51,18 @@ footer {
     color: var(--UCGold)
 }
 
+
 .link-bar{
     display: flex;
     justify-content: space-between;
     background-color: var(--container-color);
     border: 1px solid var(--UCGold);
     padding: 4px;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-blue);
 }
